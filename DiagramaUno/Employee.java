@@ -1,3 +1,4 @@
+package DiagramaUno;
 public class Employee {
     private String name;
     private int id;
@@ -21,7 +22,7 @@ public class Employee {
     }
 
     public void display() {
-        System.out.println("Name: " + name + ", ID: " + id);
+        System.out.println("Name is: " + name + ", With ID: " + id);
     }
 
     public double calculatePay() {
